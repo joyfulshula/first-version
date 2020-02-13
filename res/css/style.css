@@ -1,0 +1,105 @@
+.bg-nav{
+    background-color: #1C1815!important;
+}
+
+.navbar .dropdown-menu a:hover {
+    color: black!important;
+    text-decoration: none;
+}
+
+ #intro {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../image/bg3.jpeg");
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    color: white;
+ }
+
+ #intro h1{
+    font-size: 50px;
+    padding-top: 20px;
+ }
+
+.divider1 {
+    border-bottom: 5px solid #F9B505;
+    width: 50px;
+    padding: 0 0 0 50px;
+}
+
+.view img{
+    width: 100%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reseize img{
+    width: 100%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #fff;
+}
+
+.img-fx {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../image/bg10.jpeg");
+    height: 60vh;
+    background-size: cover;
+    font-size: 25px!important;
+    background-attachment: fixed; 
+}
+
+@media screen and (max-width: 360px) {
+    .img-fx {
+         height: 70vh;
+    }
+
+  .img-fx p {
+    height: 40vh;
+    font-size: 20px !important; 
+  }
+}
+
+ .section-heading hr {
+    width: 70px;
+    color: red;
+ }
+
+.box {
+    border: 1px solid #9E9E9E;
+    border-radius: 10px;
+}
+
+/* about us */
+
+.choose-us {
+    background-color: #E9F1F2;
+}
+
+.choose-icon img{
+    width: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+.page-footer {
+    background-color: #1C1815!important;
+}
+/* footer ends here */
+
+/* top image */
+.about{
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../image/bg5.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
